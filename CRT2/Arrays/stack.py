@@ -1,3 +1,4 @@
+#implementing stacks using arrays
 def push(stack, ele):
     stack.insert(0, ele)
     print(ele, " inserted into stack successfully")
