@@ -1,3 +1,4 @@
+#implementing queues using arrays
 def enQue(Q,ele):
     Q.append(ele)
 def deQue(ele):
