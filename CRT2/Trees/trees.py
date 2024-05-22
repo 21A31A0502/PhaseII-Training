@@ -4,18 +4,21 @@ class Tree:
         self.data=data
         self.left=None
         self.right=None
+#inorder traversal
 def printInorderTraversal(root):
     if root == None:
         return
     printInorderTraversal(root.left)
     print(root.data, end=" ")
     printInorderTraversal(root.right)
+#postorder traversal    
 def printPostorderTraversal(root):
     if root == None:
         return
     printPostorderTraversal(root.left)
     printPostorderTraversal(root.right)
     print(root.data, end=" ")
+#preorder traversal    
 def printPreorderTraversal(root):
     if root == None:
         return
